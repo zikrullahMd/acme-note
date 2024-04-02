@@ -1,0 +1,103 @@
+.color-red{
+    color: #F86634 !important;
+}
+.navbar{
+    display: flex;
+    height: 10vh;
+    background-color: #1a1a1d !important;
+
+    .container-fluid{
+        margin: 0 300px;
+
+        .navbar-brand{
+            font-size: xx-large;
+
+            .subbrand{
+                font-size: small;
+            }
+        }
+    }
+
+    a{
+        font-size: large;
+        color: white;
+    }
+
+    a:hover{
+        color: #F86634;
+    }
+
+    .collapse{
+        flex-direction: row-reverse;
+
+        .navbar-nav a{
+            padding: 0 50px;
+        }
+    }
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    .main-heading-container{
+        display: flex;
+        height: 670px;
+        .image-container{
+            margin-left: auto;
+        }
+        .heading-container{
+            display: flex;
+            flex-direction: column;
+            margin-top: 200px;
+    
+            .signup-home{
+                margin-top: 60px;
+                background: #F86634;
+                border: none;
+            }
+    
+            .sub-text{
+                font-size: large;
+                white-space: break-spaces;
+            }
+        }
+    }
+
+}
+
+.information-container{
+    .information{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 2rem;
+        text-align: center;
+        .sub-text{
+            font-size: 20px;
+            color: black;
+        }
+        i{
+            margin-right: 10px;
+        }
+    }
+}
+
+.features-container{
+    height: 100vh;
+    h1{
+        text-align: center;
+    }
+    .features-boxes{
+        .row{
+            padding: 50px;
+            .col{
+                .card{
+                    .card-text{
+                        white-space: break-spaces;
+                    }
+                }
+            }
+        }
+    }
+}
