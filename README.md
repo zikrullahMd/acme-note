@@ -1,8 +1,18 @@
-# React + Vite
+# Project Name: Acme Notes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Acme Notes is a web application designed to help users keep track of their notes and ideas. It offers features such as creating, editing, and organizing notes in a user-friendly interface.
 
-Currently, two official plugins are available:
+## Framework and Dependencies
+The following major framework and plugins or packages are used:
+- ReactJs
+- Framer Motion
+- React Icons (react-icons)
+- Bootstrap (react-bootstrap)
+- React CountUp
+- React Parallax Tilt
+- 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Page Load Time
+The page load time of the landing page is measured using browser developer tools. On average, the landing page loads in under 2.5 seconds, which was measured using the Performance tab in Chrome DevTools.
+
