@@ -8,7 +8,7 @@ function Home() {
         <div className='main-heading-container'>
             <div className='heading-container'>
                 <div>
-                    <h1 className='main-heading'>Capture, &nbsp; Collaborate, &nbsp; Create<span className='color-red'>.</span> &nbsp;</h1>
+                    <h1 className='main-heading'>Capture, Collaborate, Create<span className='color-red'>.</span></h1>
                     <span className='sub-text'>Acme Notes: Welcome to Acme Note, your digital canvas for capturing, organizing, and collaborating on ideas like never before. With Acme Note, you can seamlessly jot down thoughts, sketch concepts, and brainstorm with your team in real-time.</span>
                 </div>
                 <div>
